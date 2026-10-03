@@ -50,7 +50,7 @@ df.to_csv(r'startup_funding_cleaned.csv',index=False)
 
 #############DATA CLEANING DONE ##########
 
-cleaned_df = pd.read_csv(r'startup_funding_cleaned.csv',parse_dates=['Date'])
+cleaned_df = pd.read_csv(r'https://raw.githubusercontent.com/pandeayushman6-max/StreamLit_StartUp_Analysis/refs/heads/main/startup_funding_cleaned.csv',parse_dates=['Date'])
 
 temp_df = st.file_uploader('Upload a file',type=['csv','xlsx','txt'])
 if temp_df is not None:
