@@ -8,7 +8,7 @@ import plotly.express as px
 st.set_page_config(layout='wide',page_title='StartUp Analysis')
 
 
-df = pd.read_csv(r'D:\AI ML\StreamLit\startup_funding.csv')
+df = pd.read_csv(r'D:\AI ML\StreamLit\StartUp Dashboard\startup_funding.csv')
 print(df.shape)
 
 
